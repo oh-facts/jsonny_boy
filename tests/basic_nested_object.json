@@ -1,0 +1,13 @@
+{
+    "name": "John Doe",
+    "age": 30,
+    "contact": {
+        "email": "john.doe@example.com",
+        "phone": "123-456-7890"
+    },
+    "address": {
+        "street": "123 Main St",
+        "city": "Anytown",
+        "zip": "12345"
+    }
+}
