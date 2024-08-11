@@ -6,6 +6,16 @@
 </p>
 </p>
 
+## Table of Contents
+
+1. [About](#about)
+2. [Build](#build)
+   - [Windows](#windows)
+   - [Linux / Mac](#linux--mac)
+3. [Benchmarks](#benchmarks)
+4. [Contributions](#contributions)
+5. [Project Structure](#project-structure)
+
 ## About
 This is a lightweight and high performance json parser for C++. It has a very simple (albeit ugly) api.
 
