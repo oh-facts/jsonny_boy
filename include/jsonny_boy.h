@@ -105,6 +105,8 @@ struct JP_Hash_slot
 
 // ===public api===
 JP_Root jp_parse_from_buffer(uint8_t *buffer, uint64_t len);
+
+// Frees all data allocated by the library
 void jp_free();
 JP_Value jp_value_from_keys(JP_Object *obj, uint32_t num_keys, ...);
 // ===============
