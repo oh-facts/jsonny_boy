@@ -11,9 +11,6 @@ if [ "$clean" == "1" ]; then
     exit 0
 fi
 
-./build.sh release
-cp "out/libjsonny_boy.a" "benchmarks/jsonny_boy/out/libjsonny_boy.a"
-
 ./benchmarks/cjson/build.sh
 ./benchmarks/nlohmann/build.sh
 ./benchmarks/jsonny_boy/build.sh
