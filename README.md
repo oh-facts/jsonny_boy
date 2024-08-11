@@ -52,6 +52,8 @@ The following args can be passed - clean, debug, release, sandbox
 ./build.sh release
 ```
 
+This compiles a static library. This can then be linked with your project. Headers are in `include`
+
 ## Benchmarks
 ```
 This is cjson
