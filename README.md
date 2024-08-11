@@ -1,6 +1,8 @@
 <p>
-<h1 align="center">Jsonny Boy</h2>
+<h1 align="center">JSonny Boy</h2>
 <p align="center">JSON parser for C++</p>
+<p align="center">
+<img width="400"src="https://github.com/user-attachments/assets/7ee7d368-0b47-4dda-9650-a31f11ec7557">
 </p>
 </p>
 
@@ -78,10 +80,17 @@ Open an issue first. We can talk about it, and then you can submit a pr. Feel fr
 ## Project structure
 
 `benchmarks/` : Benchmark against cjson and nlohmann, two very popular json parsers.
+
 `code/base` : Base layer, utility functions
+
 `code/json_parser` : All of jsonny_boy's code
+
 `code/os` : OS abstraction. Need it for memory alloc functions
+
 `code/sandbox` : This is where the library is tested
+
 `stb/stb_sprintf.h` : sprintf alternative. My string library uses it but since the parser doesn't make any actual use of it, its basically unused for now.
+
 `include/` : Include folder for the library
+
 `tests/` : Some sample json files.
