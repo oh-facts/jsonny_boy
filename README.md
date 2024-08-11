@@ -35,6 +35,10 @@ Also, look at `code/sandbox/main.cpp` for a much more comprehensive example.
 
 One reason why its so lightweight is because there aren't many features. Only parsing a json file, retrieving a value from a key, and printing them. I hope to achieve feature parity with other json parsers. (Also, it is open source because I hoped it would get some attention and contributions)
 
+**One of its biggest problems** is that it likely doesn't meet JSON standards. I was able to parse several json files while using it for my purposes, but I haven't sat through the JSON standard and run specific tests. Still, it is close enough for now, and I still think it is worth sharing in its current state.
+
+I would spend more time on this but I am left with very little time since I am balancing an internship and some coursework.
+
 ## Build
 The following args can be passed - clean, debug, release, sandbox
 
@@ -69,10 +73,6 @@ The numbers are # of clock cycles it took to execute. The test file is a 5mb jso
 You can look at `benchmarks/xxx/main.x` for more details.
 
 You can run the `benchmark` script to look at the data yourself. The test isn't nearly as comprehensive as one would like but I think the difference is still astonishing, and I intend to make the tests better.
-
-One of its biggest problems is that it likely doesn't meet JSON standards. I was able to parse several json files while using it for my purposes, but I haven't sat through the JSON standard and run specific tests. Still, it is close enough for now, and I still think it is worth sharing in its current state.
-
-I would spend more time on this but I am left with very little time since I am balancing an internship and some coursework.
 
 ## Contributions
 Open an issue first. We can talk about it, and then you can submit a pr. Feel free to ask any questions, suggestions, etc. you might have.
